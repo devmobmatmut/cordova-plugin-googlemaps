@@ -7,8 +7,8 @@
 
 
     <description>Google Maps native SDK for Android and iOS</description>
-    <repo>https://github.com/mapsplugin/cordova-plugin-googlemaps</repo>
-    <issue>https://github.com/mapsplugin/cordova-plugin-googlemaps/issues</issue>
+    <repo>https://github.com/devmobmatmut/cordova-plugin-googlemaps</repo>
+    <issue>https://github.com/devmobmatmut/cordova-plugin-googlemaps/issues</issue>
 
     <license>Apache 2.0</license>
 
@@ -25,7 +25,7 @@
 
         <info>
              In order to run this plugin, you need to obtain Google Maps API key for Android.
-             Visit https://github.com/mapsplugin/cordova-plugin-googlemaps/wiki/Installation
+             Visit https://github.com/devmobmatmut/cordova-plugin-googlemaps/wiki/Installation
 
              Check our release notes.
              https://github.com/wf9a5m75/phonegap-googlemaps-plugin/wiki/Release-Notes
@@ -97,10 +97,10 @@
 
         <info>
              In order to run this plugin, you need to obtain Google Maps API key for iOS.
-             Visit https://github.com/mapsplugin/cordova-plugin-googlemaps/wiki/Installation
+             Visit https://github.com/devmobmatmut/cordova-plugin-googlemaps/wiki/Installation
 
              Check our release notes.
-             https://github.com/mapsplugin/cordova-plugin-googlemaps/wiki/Release-Notes
+             https://github.com/devmobmatmut/cordova-plugin-googlemaps/wiki/Release-Notes
         </info>
 
         <config-file target="config.xml" parent="/*">
