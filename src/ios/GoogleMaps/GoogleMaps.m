@@ -23,8 +23,13 @@
 
     //[self versionCheck];
 
-
-    self.pluginLayer = [[MyPluginLayer alloc] initWithFrame:self.webView.frame];
+    //RSZ : Fix compatibility issue with StatusBar
+    //self.pluginLayer = [[MyPluginLayer alloc] initWithFrame:self.webView.frame];
+    CGRect viewBounds = [self.webView bounds];
+	viewBounds.size.height = viewBounds.size.height + 20;
+	self.pluginLayer = [[MyPluginLayer alloc] initWithFrame:viewBounds];
+	//End fix
+	
     self.pluginLayer.backgroundColor = [UIColor whiteColor];
     self.pluginLayer.webView = self.webView;
     self.pluginLayer.autoresizingMask = UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleHeight;
